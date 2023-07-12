@@ -1,0 +1,56 @@
+.containerheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20vh; /* Define a altura total da tela */
+    justify-content: center;
+    background-color: gray;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logotipo {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+}
+  
+.logotipo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu button{
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+
+.action button{
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px 0px 10px 0px;
+    border: none;
+
+}
