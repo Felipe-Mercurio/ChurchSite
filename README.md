@@ -3,6 +3,12 @@ Instalar (next + react + react-dom):
 
 Instalar Babel:
     npm install --save-dev babel-loader @babel/core @babel/preset-react
+    npm install --save-dev next-babel-tutorial
+    npm install --save-dev @zeit/next-sass  
+    npm uninstall --save-dev next-babel-tutorial
+    npm uninstall --save-dev @zeit/next-sass    
+    npm uninstall --save-dev babel-loader @babel/core @babel/preset-react
+
 
 Configurar Git:
     git add -A

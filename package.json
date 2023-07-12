@@ -14,10 +14,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.63.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@babel/preset-react": "^7.22.5",
-    "babel-loader": "^9.1.3"
   }
 }
