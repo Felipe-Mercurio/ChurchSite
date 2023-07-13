@@ -2,16 +2,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 18vh; /* Define a altura total da tela */
+    height: 18vh;
     justify-content: center;
-    background-color: gray;
+    background-color: #333333;
 }
 
 .logotipo {
-    width: 290px;
-    height: 290px;
+    width: 160px;
+    height: 160px;
     position: absolute;
     left: 0;
+    margin-left: 10px;
 }
   
 .logotipo img {
