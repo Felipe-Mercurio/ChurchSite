@@ -1,23 +1,22 @@
 import Image from "next/image";
 import Logo from "/public/images/logo.png";
-import "/Projetos Next Js/ChurchSite/components/header/header.scss"
-
+import Styles from "./header.module.scss";
 
 const Header = () => {
-    return <div className="containerheader">
-        <div className="logotipo">
+    return <div className={Styles.container}>
+        <div className={Styles.logotipo}>
             <Image src={Logo}/>
         </div>
-        <div className="menu">
+        <div className={Styles.menu}>
             <button>Sobre nós</button>
             <button>Cultos</button>
             <button>Eventos</button>
             <button>Horários</button>
         </div>
-        <div className="theme">
+        <div className={Styles.theme}>
 
         </div>
-        <div className="action">
+        <div className={Styles.action}>
             <button>Fale Conosco</button>
         </div>
 

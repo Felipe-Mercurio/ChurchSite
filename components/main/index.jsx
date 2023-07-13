@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Logo from "/public/images/logo.png";
-import "/Projetos Next Js/ChurchSite/components/main/main.scss"
+import Styles from "./main.module.scss";
 
 const Main = () => {
-    return <div className="containermain">
+    return <div className={Styles.container}>
         <div >
             <Image src={Logo}/>
         </div>

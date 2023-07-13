@@ -1,14 +1,10 @@
-.containerheader{
+.container{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 20vh; /* Define a altura total da tela */
     justify-content: center;
     background-color: gray;
-}
-
-button{
-    cursor: pointer;
 }
 
 .logotipo {
