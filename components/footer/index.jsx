@@ -13,10 +13,13 @@ const Footer = () => {
         </div>
 
         <div className={Styles.social}>
+            
+            {/* 
             <SiInstagram className={Styles.icons}/>
             <SiWhatsapp className={Styles.icons}/>
             <SiYoutube className={Styles.icons}/>
             <SiFacebook className={Styles.icons}/>
+            */}
         </div>
     </div>
 
