@@ -1,8 +1,10 @@
 import Styles from "./footer.module.scss";
+{/* 
 import { SiWhatsapp } from 'react-icons/Si';
 import { SiInstagram } from 'react-icons/Si';
 import { SiYoutube } from 'react-icons/Si';
 import { SiFacebook } from 'react-icons/Si';
+*/}
 
 
 
