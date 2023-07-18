@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 18vh;
+    height: 11vh;
     justify-content: center;
     background-color: #333333;
 }
 
 .logotipo {
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
     margin-left: 50px;
@@ -54,4 +54,17 @@
     border-radius: 10px 0px 10px 0px;
     border: none;
 
+}
+
+
+@media (max-width: 1200px) {
+    .action{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .menu{
+        display: none;
+    }
 }
