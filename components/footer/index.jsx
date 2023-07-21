@@ -12,10 +12,10 @@ const Footer = () => {
         </div>
     
         <div className={Styles.social}>
-            <a href={'https://www.instagram.com/comu.evangelicavpta/'}><SiInstagram className={Styles.iconI}/></a>
-            <a><SiWhatsapp className={Styles.iconW}/></a>
-            <a href={'https://www.youtube.com/@comunidadeevangelicavarzea3709'}><SiYoutube className={Styles.iconY}/></a>
-            <a href={'https://www.facebook.com/comu.evangelicavpta'}><SiFacebook className={Styles.iconF}/></a>
+            <a href={'https://www.instagram.com/comu.evangelicavpta/'}><SiInstagram className={`${Styles.iconI} ${Styles.icon}`}/></a>
+            <a><SiWhatsapp className={`${Styles.iconW} ${Styles.icon}`}/></a>
+            <a href={'https://www.youtube.com/@comunidadeevangelicavarzea3709'}><SiYoutube className={`${Styles.iconY} ${Styles.icon}`}/></a>
+            <a href={'https://www.facebook.com/comu.evangelicavpta'}><SiFacebook className={`${Styles.iconF} ${Styles.icon}`}/></a>
         </div>
 
     </div>

@@ -19,24 +19,28 @@
 .social{
     display: flex;
     align-items: center;
-    font-size: 26px;
-    cursor: pointer;  
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.social a:not(:last-child) {
+    margin-right: 25px; /* Espaçamento entre os ícones, exceto o último ícone */
+}
+
+.icon{
+   font-size: 30px;
 }
 .iconI{
     color: #F77737;
-    margin: 15px;
 }
 .iconW{
     color: #25D366;
-    margin: 15px;
 }
 .iconY{
     color: #FF0000;
-    margin: 15px;
 }
 .iconF{
     color: #1877F2;
-    margin: 15px;
 }
 
 @media (max-width: 690px) {
