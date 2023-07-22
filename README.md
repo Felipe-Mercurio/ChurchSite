@@ -1,10 +1,9 @@
 Instalar (next + react + react-dom):
     npm install next react react-dom
 
-Instalar Icons:
+Dependecias:
     npm install react-icons --save
-
-
+    npm install styled-components
 
 Configurar Git:
     git add -A

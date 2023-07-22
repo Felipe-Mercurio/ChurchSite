@@ -56,6 +56,18 @@
 
 }
 
+.baricon{
+    display: none;
+    position: fixed;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 32px;
+    cursor: pointer;
+    left: 0;
+}
+
 
 @media (max-width: 1200px) {
     .action{
@@ -66,5 +78,12 @@
 @media (max-width: 1000px) {
     .menu{
         display: none;
+    }
+    .logotipo{
+        display: none;
+    }
+
+    .baricon{
+        display: block;
     }
 }
