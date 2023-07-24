@@ -5,11 +5,13 @@
     height: 11vh;
     justify-content: center;
     background-color: #333333;
+    position: fixed;
+    width: 100%;
 }
 
 .logotipo {
     width: 100px;
-    height: 100px;
+    height: 80px;
     position: absolute;
     left: 0;
     margin-left: 50px;
@@ -68,17 +70,15 @@
     .action{
         display: none;
     }
-}
-
-@media (max-width: 1000px) {
-    .menu{
-        display: none;
-    }
     .logotipo{
         left: auto;
         right: 0;
         margin-right: 5%;
     }
+    .menu{
+        display: none;
+    }
+    
     .smenu{
         display: block;
     }
