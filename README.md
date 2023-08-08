@@ -13,6 +13,3 @@ Configurar Git:
 Para rodar o projeto:
     npm run dev
 
-Para para o projeto:
-    Ctrl + C
-
